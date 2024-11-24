@@ -1,0 +1,7 @@
+Original Data Type (a),Convert to,Type Casting,Description
+"signed, std_logic_vector",unsigned,unsigned(a),"to_unsigned(10, 5) : convert 10 into 5 bit unsigned i.e. 01010"
+"unsigned, std_logic_vector",signed,signed(a),
+"signed, unsigned",std_logic_vector,std_logic_vector(a),
+"signed, unsigned",integer,to_integer(a),
+integer,signed,"to_signed(a, size)",
+natural,unsigned,"to_unsigned(a, size)",

@@ -1,0 +1,11 @@
+Category,Data type,Package
+Synthesizable,"bit, bit_vector","standard library                                                                                              (automatically included, no need to include explicitly)"
+,"boolean, boolean_vector",
+,"integer, natural, postive, integer_vector",
+,"character, string",
+,"std_logic, std_logic_vector",std_logic_1164
+,"signed, unsigned",numeric_std
+Non-synthesizable,"real, real_vector","standard library                                                                                              (automatically included, no need to include explicitly)"
+,"time, time_vector",
+,delay_length,
+,"read, write, line, text",textio
